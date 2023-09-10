@@ -1,5 +1,5 @@
-let position = 1; // The starting position of the grid
-const gridSize = 100; // The total number of the grid cells
+let position = 1; 
+const gridSize = 100; 
 
 function createGrid() {
   for (let i = 1; i <= gridSize; i++) {
@@ -26,7 +26,7 @@ function toggle(position) {
   const element = document.getElementById(name);
   element.classList.toggle('on');
 }
-//don't change this line
+
 if (typeof module !== 'undefined') {
   module.exports = { createGrid, move, toggle };
 }
